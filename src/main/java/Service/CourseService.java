@@ -1,5 +1,6 @@
 package Service;
 
+import java.util.Date;
 import java.util.List;
 
 import javax.annotation.Resource;
@@ -22,4 +23,13 @@ public class CourseService {
 	public List<Course> getCourse(String courseName) {
 		return dhbw.findAll();
 	}
+	
+	public List<Course> getCourse(Date courseDate) {
+		return dhbw.findAll();
+	}
+	
+	public List<Course> getCourse(long courseTime) {
+		return dhbw.findAll();
+	}
+
 }
